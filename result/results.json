@@ -1,0 +1,19 @@
+{
+  "exp1_stationary_final_regret_T3000": {
+    "Random": 854.2,
+    "ε-greedy (ε=0.1)": 158.6,
+    "UCB1": 274.5,
+    "Thompson Sampling": 73.4
+  },
+  "exp2_contextual_final_regret_T3000": {
+    "Random": 1545.3,
+    "ε-greedy (no context)": 1542.9,
+    "LinUCB": 12.7
+  },
+  "exp3_drift_final_regret_T4000": {
+    "UCB1": 255.9,
+    "Thompson Sampling": 982.4,
+    "Discounted UCB (γ=0.996)": 367.9,
+    "Sliding-Window UCB (w=400)": 339.0
+  }
+}
